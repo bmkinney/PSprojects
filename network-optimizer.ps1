@@ -4,7 +4,7 @@
 .DESCRIPTION
     Optimizes Windows network settings and performs internet speed tests. Generates a visual HTML report.
 .NOTES
-    Author: Your Name
+    Author: Brian Kinney
     License: MIT
     Platform: Windows only
     Requires: PowerShell 5+, Administrator privileges
@@ -828,3 +828,4 @@ catch {
     Write-Host "Error: $_" -ForegroundColor Red
     Write-Log "Error: $_"
 }
+
